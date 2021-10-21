@@ -8,6 +8,9 @@
 import Foundation
 
 let accountsData: [ExchangeAccount] = [
-    ExchangeAccount(exchange: "Binance", accountBalance: 1432.34),
-    ExchangeAccount(exchange: "AscendEx", accountBalance: 4098.24)
+    ExchangeAccount(exchange: "Binance", accountBalance: 123.2, image: "bnb"),
+    ExchangeAccount(exchange: "AscendEx", accountBalance: 4020.23, image: "ascendex")
 ]
+
+
+let mergeAccount: MergeAccount = MergeAccount(balance: 5000.00)

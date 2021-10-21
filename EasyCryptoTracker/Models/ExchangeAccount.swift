@@ -11,4 +11,5 @@ struct ExchangeAccount: Identifiable {
     var id = UUID()
     var exchange: String
     var accountBalance: Float
+    var image: String
 }

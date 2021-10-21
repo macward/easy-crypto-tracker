@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct AccountsRowView: View {
+    
+    var account: ExchangeAccount!
+    
     var body: some View {
-        HStack {
-            Image("bnb", bundle: nil).frame(width: 80, height: 80, alignment: .center)
-            Text("4139.23").frame(width: 200, height: 80, alignment: .center)      .font(.title)
+        HStack (spacing: 10) {
+            Image(account.image, bundle: nil)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 80, height: 80, alignment: .center)
+            
+            Text("\(account.accountBalance)")
+                .font(.title)
         }
     }
 }

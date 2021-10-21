@@ -9,21 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var accounts: [ExchangeAccount] = []
+    let accounts: [ExchangeAccount] = accountsData
+    let mAccount: MergeAccount = mergeAccount
     
     var body: some View {
         NavigationView{
-            List {
-                ForEach(accounts) { item in
-                    AccountsRowView()
+            VStack {
+                MergeAccountView(account: mAccount)
+                List {
+                    ForEach(accounts) { item in
+                        NavigationLink(destination: ExchangeDetailView()) {
+                            AccountsRowView(account: item)
+                        }
+                    }
                 }
             }
         }.navigationTitle("Accounts") //: Navigation
-    }//: Body
+    } //: Body
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(accounts: accountsData)
+        ContentView()
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506FE5AC2721182E00E6F3E5 /* MergeAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FE5AB2721182E00E6F3E5 /* MergeAccount.swift */; };
+		506FE5AE2721185D00E6F3E5 /* MergeAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FE5AD2721185D00E6F3E5 /* MergeAccountView.swift */; };
+		506FE5B027211FF500E6F3E5 /* ExchangeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FE5AF27211FF500E6F3E5 /* ExchangeDetailView.swift */; };
+		506FE5B22721265100E6F3E5 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FE5B12721265100E6F3E5 /* Balance.swift */; };
 		507266A62720A44D00E2A98F /* EasyCryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266A52720A44D00E2A98F /* EasyCryptoTrackerApp.swift */; };
 		507266A82720A44D00E2A98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266A72720A44D00E2A98F /* ContentView.swift */; };
 		507266AA2720A44F00E2A98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507266A92720A44F00E2A98F /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		506FE5AB2721182E00E6F3E5 /* MergeAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeAccount.swift; sourceTree = "<group>"; };
+		506FE5AD2721185D00E6F3E5 /* MergeAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeAccountView.swift; sourceTree = "<group>"; };
+		506FE5AF27211FF500E6F3E5 /* ExchangeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDetailView.swift; sourceTree = "<group>"; };
+		506FE5B12721265100E6F3E5 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 		507266A22720A44D00E2A98F /* EasyCryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507266A52720A44D00E2A98F /* EasyCryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCryptoTrackerApp.swift; sourceTree = "<group>"; };
 		507266A72720A44D00E2A98F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				507266D32720A56B00E2A98F /* AccountsRowView.swift */,
+				506FE5AD2721185D00E6F3E5 /* MergeAccountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 			children = (
 				507266A72720A44D00E2A98F /* ContentView.swift */,
 				507266A52720A44D00E2A98F /* EasyCryptoTrackerApp.swift */,
+				506FE5AF27211FF500E6F3E5 /* ExchangeDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -156,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				507266D62720C98D00E2A98F /* ExchangeAccount.swift */,
+				506FE5AB2721182E00E6F3E5 /* MergeAccount.swift */,
+				506FE5B12721265100E6F3E5 /* Balance.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,6 +312,10 @@
 			files = (
 				507266D72720C98D00E2A98F /* ExchangeAccount.swift in Sources */,
 				507266A82720A44D00E2A98F /* ContentView.swift in Sources */,
+				506FE5AC2721182E00E6F3E5 /* MergeAccount.swift in Sources */,
+				506FE5AE2721185D00E6F3E5 /* MergeAccountView.swift in Sources */,
+				506FE5B22721265100E6F3E5 /* Balance.swift in Sources */,
+				506FE5B027211FF500E6F3E5 /* ExchangeDetailView.swift in Sources */,
 				507266DA2720C9F200E2A98F /* AccountsData.swift in Sources */,
 				507266A62720A44D00E2A98F /* EasyCryptoTrackerApp.swift in Sources */,
 				507266D42720A56B00E2A98F /* AccountsRowView.swift in Sources */,
