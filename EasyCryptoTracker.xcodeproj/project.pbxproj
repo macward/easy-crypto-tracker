@@ -21,6 +21,7 @@
 		507266D42720A56B00E2A98F /* AccountsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266D32720A56B00E2A98F /* AccountsRowView.swift */; };
 		507266D72720C98D00E2A98F /* ExchangeAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266D62720C98D00E2A98F /* ExchangeAccount.swift */; };
 		507266DA2720C9F200E2A98F /* AccountsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266D92720C9F200E2A98F /* AccountsData.swift */; };
+		507266DD27212E5400E2A98F /* ExchangeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507266DC27212E5400E2A98F /* ExchangeHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		507266D32720A56B00E2A98F /* AccountsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsRowView.swift; sourceTree = "<group>"; };
 		507266D62720C98D00E2A98F /* ExchangeAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAccount.swift; sourceTree = "<group>"; };
 		507266D92720C9F200E2A98F /* AccountsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsData.swift; sourceTree = "<group>"; };
+		507266DC27212E5400E2A98F /* ExchangeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		507266CF2720A45600E2A98F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				507266DB27212E3200E2A98F /* Details */,
 				507266D32720A56B00E2A98F /* AccountsRowView.swift */,
 				506FE5AD2721185D00E6F3E5 /* MergeAccountView.swift */,
 			);
@@ -178,6 +181,14 @@
 				507266D92720C9F200E2A98F /* AccountsData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		507266DB27212E3200E2A98F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				507266DC27212E5400E2A98F /* ExchangeHeader.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507266D72720C98D00E2A98F /* ExchangeAccount.swift in Sources */,
+				507266DD27212E5400E2A98F /* ExchangeHeader.swift in Sources */,
 				507266A82720A44D00E2A98F /* ContentView.swift in Sources */,
 				506FE5AC2721182E00E6F3E5 /* MergeAccount.swift in Sources */,
 				506FE5AE2721185D00E6F3E5 /* MergeAccountView.swift in Sources */,
